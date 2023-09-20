@@ -21,7 +21,7 @@ namespace Tyuiu.KarpenkoNA.Sprint1.Task1.V16
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Организация ввода\вывода в консольных приложениях                 *");
+            Console.WriteLine("* Тема: Организация ввода/вывода в консольных приложениях                 *");
             Console.WriteLine("* Задание #1                                                              *");
             Console.WriteLine("* Вариант #16                                                             *");
             Console.WriteLine("* Выполнил: Карпенко Никита Андреевич |  АСОиУБ-23-2                      *");
@@ -45,7 +45,13 @@ namespace Tyuiu.KarpenkoNA.Sprint1.Task1.V16
             Console.WriteLine("Введите значение y:");
             y = Convert.ToDouble(Console.ReadLine());
 
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+            Console.WriteLine("***************************************************************************");
 
+            Console.WriteLine(ds.Calculate(a, x, y));
+
+            Console.ReadLine();
 
         }
        
